@@ -1,35 +1,47 @@
-# Project Report
+###  report.md
 
-This project demonstrates a basic library management system using Python and SQL.
-# Project Report
+# Library Management System Report
 
-## Library Management System
+## Introduction
 
-###  Introduction
+This project is a simple Library Management System developed using Python and SQLite. The main goal of the project is to manage books in a small library.
 
-The Library  Management System is a simple project developed using Python and SQL. The purpose of the project is to help manage books, users, and borrowing records in a library environment.
+## Project Objective
 
-### Objectives
+The objective of this project is to create a basic system that allows users to add, view, borrow, return, and delete books.
 
-* Organize library books efficiently.
-* Manage user information.
-* Track borrowing and returning activities.
-* Provide a simple and  easy-to-use system.
+## Tools and Technologies
 
-### Technologies Used
+- Python
+- SQLite
+- GitHub
 
-* Python
-* SQL Database
-* GitHub
+## Database Design
 
-### Features
+The database contains one table called `books`.
 
-* Add  books
-* Remove books
-* Search books
-* Manage users
-* Track borrowing records
+### Books Table
 
-### Conclusion
+| Column | Type | Description |
+|---|---|---|
+| id | INTEGER | Unique book ID |
+| title | TEXT | Book title |
+| author | TEXT | Book author |
+| year | INTEGER | Publication year |
+| available | INTEGER | Book availability status |
 
-This project demonstrates the basic concepts of software development, database management, and version control using GitHub. It provides a foundation for building more advanced library management applications in the future.
+## System Features
+
+1. Add Book  
+2. View Books  
+3. Borrow Book  
+4. Return Book  
+5. Delete Book  
+
+## How the System Works
+
+When the program starts, it creates the database table automatically if it does not already exist. The user can choose an option from the menu to manage books.
+
+## Conclusion
+
+This project helped me understand how to use Python with SQLite to create a simple database management system.

@@ -1,18 +1,30 @@
 # Library Management System
 
-## Project Overview
-This project is a simple library management system created using Python.
+This is a simple Library Management System project using Python and SQLite.
 
-### Features
+## Features
+
 - Add books
-- Remove books
-- Search books
-- Manage users
-- Track borrowing records
+- View books
+- Borrow books
+- Return books
+- Delete books
 
 ## Technologies Used
-- Python
-- SQL Database
-- GitHub
 
-## Author
+- Python
+- SQLite
+
+## Files
+
+- `main.py`: Main Python program
+- `database.sql`: SQL file for creating the books table
+- `library.db`: Database file created automatically when the program runs
+- `report.md`: Project report
+
+## How to Run
+
+Open the terminal and run:
+
+```bash
+python main.py

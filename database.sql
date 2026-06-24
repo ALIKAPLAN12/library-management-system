@@ -3,3 +3,10 @@ CREATE TABLE books (
     title TEXT,
     author TEXT
 );
+CREATE TABLE IF NOT EXISTS books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    year INTEGER NOT NULL,
+    available INTEGER DEFAULT 1
+);

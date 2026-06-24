@@ -1,5 +1,7 @@
 # Library Management System
+## Description  
 
+The system allows users to manage books in a small library. Users can add new books, view all books, borrow a book, return a book, and delete books from the database.
 This is a simple Library Management System project using Python and SQLite.
 
 ## Features
